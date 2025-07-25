@@ -1,0 +1,70 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set background and font */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f4ee; /* light beige background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the container */
+.login-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Style the logo */
+.logo {
+  border: 3px solid #e6c8a0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Style the heading */
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #3e3e3e;
+}
+
+/* Style inputs */
+input[type="email"],
+input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Style the button */
+button {
+  background-color: #e6c8a0;
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #d0b288;
+}
